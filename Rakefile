@@ -1,5 +1,5 @@
 task :default => [:test]
 
 task :test do
-  ruby "test/unittest.rb"
+  /usr/local/bin/ruby "test/unittest.rb"
 end
