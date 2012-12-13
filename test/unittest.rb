@@ -58,13 +58,13 @@ puts " Step 3: click the 'Google Search' button."
 browser.button(:name, "btnG").click # "btnG" is the name of the Search button
 
 puts " Expected Result:"
-puts "  A Google page with results should be shown. 'Programming Ruby' should be high on the list."
+puts "  A Google page with results should be shown. 'Play' should be high on the list."
 
 puts " Actual Result:"
-if browser.text.include? "Programming Ruby"  
-  puts "  Test Passed. Found the test string: 'Programming Ruby'. Actual Results match Expected Results."
+if browser.text.include? "Play"  
+  puts "  Test Passed. Found the test string: 'Play'. Actual Results match Expected Results."
 else
-  puts "  Test Failed! Could not find: 'Programming Ruby'." 
+  puts "  Test Failed! Could not find: 'Play'." 
 end
 puts browser.text
 puts "End of test: Google search."
