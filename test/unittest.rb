@@ -66,7 +66,7 @@ if browser.text.include? "Programming Ruby"
 else
   puts "  Test Failed! Could not find: 'Programming Ruby'." 
 end
-
+puts browser.text
 puts "End of test: Google search."
 
 headless.destroy
