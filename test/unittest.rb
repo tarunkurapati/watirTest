@@ -37,7 +37,7 @@ headless.start
 #------------------------------------------------------------------------------------------------------------ #
 
 #require 'watir'   # the controller
-#require 'test/unit' 
+require 'test/unit' 
 
 class TC_google_suite < Test::Unit::TestCase
 
