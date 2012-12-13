@@ -61,7 +61,7 @@ puts " Expected Result:"
 puts "  A Google page with results should be shown. 'Programming Ruby' should be high on the list."
 
 puts " Actual Result:"
-if browser.text.include? "Play"  
+if browser.text.include? "Programming Ruby"  
   puts "  Test Passed. Found the test string: 'Programming Ruby'. Actual Results match Expected Results."
 else
   puts "  Test Failed! Could not find: 'Programming Ruby'." 
