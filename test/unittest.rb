@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'watir-webdriver'
+require 'watir'
 require 'headless'
 headless = Headless.new
 headless.start
