@@ -43,7 +43,9 @@ headless.start
 test_site = "http://www.google.com"
 
 # open a browser
-browser = Watir::Browser.new
+browser = Watir::Browser.new :ie
+#b = Watir::Browser.new :ie
+
 
 # print some comments
 puts "Beginning of test: Google search."
