@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'watir-webdriver'
+require 'watir'
 require 'headless'
 headless = Headless.new
 headless.start
@@ -43,7 +43,7 @@ headless.start
 test_site = "http://www.google.com"
 
 # open a browser
-browser = Watir::Browser.new
+browser = Watir::Browser.new :ie
 #b = Watir::Browser.new :ie
 
 
